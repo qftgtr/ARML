@@ -7,6 +7,8 @@
 * ARML use CSS syntax to define the styles of 3D objects and models
 * ARML uses JavaScript to add interactions to the AR content
 
+The potential for ARML is huge, that so many applications across many different areas can be made. There are lots of work to be done, so any bug reports or feature requests are welcomed in [GitHub Issues](https://github.com/Dimenxion/ARML/issues).
+
 ## Table of Contents
 
 1. [Motivation](#motivation)
