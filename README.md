@@ -17,7 +17,7 @@ The potential for ARML is huge, that so many applications across many different 
     * [`<model>`](#model)
 4. [ARML Style Sheets](#arml-style-sheets)
 5. [JavaScript for ARML](#javascript-for-arml)
-6. [ARML Browser](#arml-browser)
+6. [ARML Browser and Web Code Editor](#arml-browser-and-web-code-editor)
 
 ## Motivation
 
@@ -174,19 +174,10 @@ Execute an event to the matched elements, such as play an animation. For now, on
 Events:
 * `animate`: Play an animation clip once. The `parameters` should be a string determining the clip name.
 
-## ARML Browser
+## ARML Browser and Web Code Editor
 
-[Hippo AR](https://itunes.apple.com/us/app/hippo-ar/id1241098309?mt=8) is an iOS app based on ARKit that supports ARML.
+[Hippo AR](https://itunes.apple.com/us/app/hippo-ar/id1241098309?mt=8) is an iOS ARML browser based on ARKit. You can test and browse AR content built by ARML on Hippo AR.
 
-### Deploy to Hippo AR
+### Web Code Editor
 
-1. Write the ARML file (use `html` extension) and put it online with the URL ready. For example, https://192.168.0.100:8080/index.html (local) or https://your-host.com/index.html (online).
-2. [Generate the QRCode](https://www.qr-code-generator.com/) for the URL. The below QRCode is for the example in Getting Started.
-
-![](https://github.com/Dimenxion/ARML/raw/master/imgs/qrcode.png)
-
-3. Open Hippo AR and login. Scan the QRCode using the camera.
-4. Press the bottom blue button, say or type the command: *Publish the website*.
-5. Voila! You should see your ARML loaded just in front of you!
-
-Notice that for now, a user can only post one ARML file. If you *publish the website* again, it will overwrite the last one.
+You can check out the ARML web code editor at https://arml.hippotech.co. When first opened, it will load a sample ARML file. Modify the sample codes, or write your own ARML to make your own AR content. You can post/save it to a real location using the map next to the code editor, and test it using [Hippo AR](https://itunes.apple.com/us/app/hippo-ar/id1241098309?mt=8). Anyone who has Hippo AR can use it as the browser to view your AR content.
