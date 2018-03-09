@@ -9,6 +9,8 @@
 
 The potential for ARML is huge, that so many applications across many different areas can be made. There are lots of work to be done, so any bug reports or feature requests are welcomed in [GitHub Issues](https://github.com/Dimenxion/ARML/issues).
 
+[**Join Slack**](https://join.slack.com/t/arml-group/shared_invite/enQtMzI2OTc1NzMyMDgwLTZlYWZkODk4ZmQwZjFkOWQyYWJiNTQ5OWQwMmQ3NmVjMTExZTkzMTQ3NDc3N2EzMDI5ODI5ZTgxY2RlYjM3ZDg)
+
 ## Table of Contents
 
 1. [Motivation](#motivation)
