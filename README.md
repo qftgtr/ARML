@@ -15,7 +15,7 @@ The potential for ARML is huge, that so many applications across many different 
 
 1. [Motivation](#motivation)
 2. [Getting Started](#getting-started)
-3. [ARML Tags](#arml-primitives)
+3. [ARML Primitives](#arml-primitives)
 4. [ARML Style Sheets](#arml-style-sheets)
 5. [JavaScript for ARML](#javascript-for-arml)
 6. [ARML Browser and Web Code Editor](#arml-browser-and-web-code-editor)
