@@ -63,8 +63,6 @@ Similar to the triad of web development, ARML also have three main parts:
 2. The style sheets to describe the visual presentation of the content;
 3. A JavaScript runtime to add dynamic effects and interactions.
 
-To see AR content made by ARML, you can download the [ARML browser](#arml-browser).
-
 ## ARML Primitives
 
 ARML provides a handful of elements such as `<a-box>` or `<a-model>` called *primitives*.
