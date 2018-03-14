@@ -1,4 +1,4 @@
-`<a-cone>`
+# `<a-cone>`
 
 The cone primitive creates a cone shape.
 
