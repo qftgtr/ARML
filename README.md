@@ -16,9 +16,10 @@ The potential for ARML is huge, that so many applications across many different 
 1. [Motivation](#motivation)
 2. [Getting Started](#getting-started)
 3. [ARML Primitives](#arml-primitives)
-4. [ARML Style Sheets](#arml-style-sheets)
-5. [JavaScript for ARML](#javascript-for-arml)
-6. [ARML Browser and Web Code Editor](#arml-browser-and-web-code-editor)
+4. [ARML Components](#arml-components)
+5. [ARML Style Sheets](#arml-style-sheets)
+6. [JavaScript for ARML](#javascript-for-arml)
+7. [ARML Browser and Web Code Editor](#arml-browser-and-web-code-editor)
 
 ## Motivation
 
@@ -69,14 +70,69 @@ ARML provides a handful of elements such as `<a-box>` or `<a-model>` called *pri
 
 - [`<a-box>`](./docs/primitives/a-box.md)
 - [`<a-camera>`](./docs/primitives/a-camera.md)
+- [`<a-circle>`](./docs/primitives/a-circle.md)
+- [`<a-cone>`](./docs/primitives/a-cone.md)
 - [`<a-cursor>`](./docs/primitives/a-cursor.md)
 - [`<a-cylinder>`](./docs/primitives/a-cylinder.md)
 - [`<a-image>`](./docs/primitives/a-image.md)
+- [`<a-light>`](./docs/primitives/a-light.md)
 - [`<a-model>`](./docs/primitives/a-model.md)
 - [`<a-plane>`](./docs/primitives/a-plane.md)
 - [`<a-sphere>`](./docs/primitives/a-sphere.md)
 - [`<a-text>`](./docs/primitives/a-text.md)
 - [`<ar-plane>`](./docs/primitives/ar-plane.md)
+
+
+## ARML Components
+
+In the entity-component-system pattern, a component is a reusable and
+modular chunk of data that we plug into an entity to add appearance, behavior,
+and/or functionality.
+
+In ARML, components modify entities which are 3D objects in the scene. We
+mix and compose components together to build complex objects. They let us
+encapsulate Unity and JavaScript code into modules that we can use
+declaratively from HTML.
+
+HTML attributes represent component names and the value of those attributes
+represent component data.
+
+### Single-Property Component
+
+If a component is a *single-property* component, meaning its data consists of a
+single value, then in HTML, the component value looks like a normal HTML
+attribute:
+
+```html
+<!-- `position` is the name of the position component. -->
+<!-- `1 2 3` is the data of the position component. -->
+<a-entity position="1 2 3"></a-entity>
+```
+
+
+### Multi-Property Component
+
+If a component is a *multi-property* component, meaning the data is consists of
+multiple properties and values, then in HTML, the component value resembles
+inline CSS styles:
+
+```html
+<!-- `light` is the name of the light component. -->
+<!-- The `type` property of the light is set to `point`. -->
+<!-- The `color` property of the light is set to `crimson`. -->
+<a-entity light="type: point; color: crimson"></a-entity>
+```
+
+### List of Built-in Components
+
+- [`position, rotation, scale`](./docs/components/position-rotation-scale.md)
+- [`camera`](./docs/components/camera.md)
+- [`cursor`](./docs/components/cursor.md)
+- [`geometry`](./docs/components/geometry.md)
+- [`material`](./docs/components/material.md)
+- [`model`](./docs/components/model.md)
+- [`raycaster`](./docs/components/raycaster.md)
+
 
 ## ARML Style Sheets
 
