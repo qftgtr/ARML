@@ -18,7 +18,7 @@ Defining a red material using the default standard material:
 
 ARML ships with a couple of built-in shaders.
 
-### `standard` (default)
+### `standard`
 
 The `standard` material is the default shader. It uses the Unity's
 [Standard Shader](https://docs.unity3d.com/Manual/shader-StandardShader.html) which supports
@@ -72,7 +72,7 @@ color, metalness and roughness.
 
 ### `refractive`
 
-The `refractive` shader render a transparent and refractive material, such as glass or gems.
+The `refractive` shader render a transparent and refractive material, such as glasses or gems.
 
 #### Properties
 
