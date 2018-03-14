@@ -1,6 +1,6 @@
 # `<a-model>`
 
-The model primitive loads a model from Unity AssetBundle.
+The model primitive loads a model from Unity [AssetBundles](https://docs.unity3d.com/Manual/AssetBundlesIntro.html).
 
 ## Example
 

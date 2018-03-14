@@ -6,7 +6,7 @@ The image primitive shows an image on a flat plane.
 
 ```html
 <a-scene>
-  <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+  <!-- Defining the URL inline. -->
   <a-image src="https://myurl.com/image.png"></a-image>
 </a-scene>
 ```
@@ -17,7 +17,9 @@ The image primitive shows an image on a flat plane.
 | --------        | -----------------       | ------------- |
 | color           | material.color          | #FFF          |
 | height          | geometry.height         | 1             |
+| metalness       | material.metalness      | 0             |
 | opacity         | material.opacity        | 1             |
+| roughness       | material.roughness      | 0.5           |
 | src             | material.src            | None          |
 | transparent     | material.transparent    | false         |
 | width           | geometry.width          | 1             |

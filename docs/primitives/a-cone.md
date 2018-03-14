@@ -1,32 +1,22 @@
-# `<a-plane>`
+`<a-cone>`
 
-[geometry]: ../components/geometry.md
-
-The plane primitive creates flat surfaces using the [geometry][geometry]
-component with the type set to `plane`.
+The cone primitive creates a cone shape.
 
 ## Example
 
 ```html
-<a-plane color="#CCC" height="2" width="2"></a-plane>
+<!-- Basic cone. -->
+<a-cone color="tomato" radius="0.5" height="1"></a-cone>
 ```
 
 ## Attributes
+
 
 | Attribute                        | Component Mapping                      | Default Value |
 | --------                         | -----------------                      | ------------- |
 | color                            | material.color                         | #FFF          |
 | height                           | geometry.height                        | 1             |
 | metalness                        | material.metalness                     | 0             |
+| radius                           | geometry.radius                        | 1             |
 | roughness                        | material.roughness                     | 0.5           |
 | src                              | material.src                           | None          |
-| width                            | geometry.width                         | 1             |
-
-## Parallelizing to the Ground
-
-To make a plane parallel to the ground or make a plane the ground itself,
-rotate it around the X-axis:
-
-```html
-<a-plane rotation="-90 0 0"></a-plane>
-```

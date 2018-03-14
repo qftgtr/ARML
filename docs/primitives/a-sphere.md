@@ -15,4 +15,5 @@ The sphere primitive creates a spherical or polyhedron shapes. It wraps an entit
 | color                            | material.color                         | #FFF          |
 | metalness                        | material.metalness                     | 0             |
 | radius                           | geometry.radius                        | 1             |
+| roughness                        | material.roughness                     | 0.5           |
 | src                              | material.src                           | None          |

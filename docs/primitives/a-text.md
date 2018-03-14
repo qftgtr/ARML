@@ -7,7 +7,7 @@ Wraps the [text component][text].
 ## Example
 
 ```html
-<a-text value="Hello, World!"></a-text>
+<a-text value="Hello, World!" color="red"></a-text>
 ```
 
 ## Attributes
@@ -15,7 +15,5 @@ Wraps the [text component][text].
 | Attribute      | Component Mapping  |
 |----------------|--------------------|
 | color          | text.color         |
-| font           | text.font          |
 | opacity        | text.opacity       |
-| transparent    | text.transparent   |
 | value          | text.value         |

@@ -8,7 +8,7 @@ The cylinder primitive is versatile and can be used to create different kinds of
 
 ```html
 <!-- Basic cylinder. -->
-<a-cylinder color="crimson" height="3" radius="1.5"></a-cylinder>
+<a-cylinder color="red" height="3" radius="1.5"></a-cylinder>
 ```
 
 ## Attributes
@@ -17,5 +17,7 @@ The cylinder primitive is versatile and can be used to create different kinds of
 | --------                         | -----------------                      | ------------- |
 | color                            | material.color                         | #FFF          |
 | height                           | geometry.height                        | 1             |
+| metalness                        | material.metalness                     | 0             |
+| roughness                        | material.roughness                     | 0.5           |
 | radius                           | geometry.radius                        | 1             |
 | src                              | material.src                           | None          |

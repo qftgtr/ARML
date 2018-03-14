@@ -1,7 +1,7 @@
 # `<a-camera>`
 
-The camera primitive determines what the user sees. We can change the viewport
-by modifying the camera entity's position and rotation.
+The camera primitive is connected to the AR camera. The entities within the `a-camera`
+tag will move together with the AR camera.
 
 ## Example
 

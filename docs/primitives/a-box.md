@@ -16,5 +16,7 @@ The box primitive creates shapes such as boxes, cubes, or walls.
 | color                            | material.color                         | #FFF          |
 | depth                            | geometry.depth                         | 1             |
 | height                           | geometry.height                        | 1             |
+| metalness                        | material.metalness                     | 0             |
+| roughness                        | material.roughness                     | 0.5           |
 | src                              | material.src                           | None          |
 | width                            | geometry.width                         | 1             |

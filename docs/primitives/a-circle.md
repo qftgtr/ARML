@@ -1,14 +1,18 @@
-# `<a-plane>`
+# `<a-circle>`
 
-[geometry]: ../components/geometry.md
-
-The plane primitive creates flat surfaces using the [geometry][geometry]
-component with the type set to `plane`.
+The circle primitive creates circles surfaces using the [geometry][geometry]
+component with the type set to `circle`.
 
 ## Example
 
 ```html
-<a-plane color="#CCC" height="2" width="2"></a-plane>
+<a-scene>
+  <!-- Basic circle. -->
+  <a-circle color="#CCC" radius="0.2"></a-circle>
+
+  <!-- Textured circle parallel to ground. -->
+  <a-circle src="https://url.com/image.jpg" radius="0.5" rotation="-90 0 0"></a-circle>
+</a-scene>
 ```
 
 ## Attributes
@@ -16,17 +20,17 @@ component with the type set to `plane`.
 | Attribute                        | Component Mapping                      | Default Value |
 | --------                         | -----------------                      | ------------- |
 | color                            | material.color                         | #FFF          |
-| height                           | geometry.height                        | 1             |
 | metalness                        | material.metalness                     | 0             |
+| radius                           | geometry.radius                        | 1             |
 | roughness                        | material.roughness                     | 0.5           |
 | src                              | material.src                           | None          |
-| width                            | geometry.width                         | 1             |
 
 ## Parallelizing to the Ground
 
-To make a plane parallel to the ground or make a plane the ground itself,
-rotate it around the X-axis:
+To make a circle parallel to the ground, rotate it around the X-axis:
 
 ```html
-<a-plane rotation="-90 0 0"></a-plane>
+<a-circle rotation="-90 0 0"></a-circle>
 ```
+
+[geometry]: ../components/geometry.md
